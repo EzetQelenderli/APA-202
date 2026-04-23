@@ -1,0 +1,13 @@
+body {
+    background-image: url(../css/images/sun-sets-behind-mountain-ranges-600nw-2479236003.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    color: yellow;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 100px;
+}

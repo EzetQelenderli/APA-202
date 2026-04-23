@@ -1,0 +1,35 @@
+/* Səhifənin təməl parametrləri */
+body {
+    margin: 0;
+    padding: 0;
+  
+    background: #000; 
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif; 
+}
+
+.content-container {
+    max-width: 600px;  
+    text-align: center;
+    padding: 20px;
+}
+.highlight-text, .main-text {
+    color: #ffff00; 
+    line-height: 1.6; 
+    margin-bottom: 30px; 
+    
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.highlight-text {
+    font-size: 18px;
+}
+.main-text {
+    font-size: 16px;
+}
