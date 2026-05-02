@@ -1,98 +1,96 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
-
 body {
-
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(135deg, #5ecae6, #a832ef);
 }
-
-.login-card {
+.login-box {
     background: #fff;
     width: 380px;
-    padding: 40px;
-    border-radius: 8px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     position: relative;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
 }
-
 .close-btn {
     position: absolute;
     right: 20px;
     top: 15px;
     font-size: 24px;
+    font-weight: bold;
     cursor: pointer;
     color: #333;
 }
-
 h1 {
-    text-align: center;
-    margin-bottom: 30px;
     font-size: 28px;
+    margin-bottom: 25px;
+    color: #000;
 }
-
 .input-group {
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 15px;
 }
-
 .input-group label {
-    display: block; 
+    display: block;
+    font-size: 14px;
     margin-bottom: 8px;
-    font-weight: bold;
+    color: #333;
 }
 
 .input-group input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     outline: none;
+    transition: 0.3s;
 }
-
 .input-group input:focus {
-    border-color: #9b59b6;
+    border-color: #a832ef;
 }
-
 .forgot-pass {
     display: block;
-    color: #3498db;
+    text-align: left;
+    color: #5ecae6;
     text-decoration: none;
     font-size: 14px;
     margin-bottom: 25px;
 }
-
 .login-btn {
     width: 100%;
     padding: 12px;
     border: none;
-    border-radius: 5px;
-    background: linear-gradient(to right, #2dbdcb, #a60af3);
+    border-radius: 4px;
+    background: linear-gradient(to right, #5ecae6, #a832ef);
     color: white;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 20px;
-    transition: transform 0.2s;
+    transition: opacity 0.3s;
 }
 
 .login-btn:hover {
-    transform: scale(1.02); 
+    opacity: 0.9;
 }
-.signup-text {
-    text-align: center;
+.signup-link {
+    margin-top: 25px;
     font-size: 14px;
+    color: #333;
 }
 
-.signup-text a {
-    color: #3498db;
+.signup-link a {
+    color: #5ecae6;
     text-decoration: none;
     font-weight: bold;
+}
+.signup-link a:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;700&display=swap');
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.vintage-container {
+    width: 900px;
+    height: 550px;
+    background: #e8e2d2 url('https://www.transparenttextures.com/patterns/old-map.png');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #d1c8b0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.content {
+    margin-bottom: 60px;
+}
+
+.the {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color: #b08d57;
+    letter-spacing: 8px;
+    margin: 0;
+}
+
+.hamilton {
+    font-family: 'Great Vibes', cursive;
+    font-size: 160px;
+    color: #1a1a1a;
+    margin: -40px 0 0 0;
+    font-weight: 400;
+}
+
+
+.font-family {
+    font-family: 'Cinzel', serif;
+    font-size: 36px;
+    color: #b08d57;
+    letter-spacing: 12px;
+    margin: -10px 0 20px 0;
+}
+
+.details {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #1a1a1a;
+    letter-spacing: 6px;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: fit-content;
+}
+.crafted {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    color: #b08d57;
+    margin-top: 30px;
+}
+
+.footer-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #a68a64;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 2px solid #8e734b;
+}
+.footer-bar span {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #e8e2d2;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
