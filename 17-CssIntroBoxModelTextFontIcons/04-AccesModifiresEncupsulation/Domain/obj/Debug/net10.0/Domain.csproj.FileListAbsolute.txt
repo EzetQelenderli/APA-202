@@ -1,0 +1,5 @@
+C:\Users\ezetq\OneDrive\Desktop\APA202\04-AccesModifiresEncupsulation\Domain\obj\Debug\net10.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezetq\OneDrive\Desktop\APA202\04-AccesModifiresEncupsulation\Domain\obj\Debug\net10.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ezetq\OneDrive\Desktop\APA202\04-AccesModifiresEncupsulation\Domain\obj\Debug\net10.0\Domain.AssemblyInfo.cs
+C:\Users\ezetq\OneDrive\Desktop\APA202\04-AccesModifiresEncupsulation\Domain\obj\Debug\net10.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ezetq\OneDrive\Desktop\APA202\04-AccesModifiresEncupsulation\Domain\obj\Debug\net10.0\Domain.sourcelink.json

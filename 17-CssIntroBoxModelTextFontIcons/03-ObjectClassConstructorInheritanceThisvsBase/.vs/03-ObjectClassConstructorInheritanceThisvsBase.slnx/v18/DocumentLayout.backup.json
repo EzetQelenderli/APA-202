@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\03-objectclassconstructorinheritancethisvsbase\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\03-objectclassconstructorinheritancethisvsbase\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\03-objectclassconstructorinheritancethisvsbase\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\03-objectclassconstructorinheritancethisvsbase\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\03-objectclassconstructorinheritancethisvsbase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Administrator.cs",
+              "RelativeDocumentMoniker": "Administrator.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Administrator.cs",
+              "RelativeToolTip": "Administrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:23:13.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:21:45.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA4wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:21:04.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Teacher.cs",
+              "RelativeDocumentMoniker": "Teacher.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Teacher.cs",
+              "RelativeToolTip": "Teacher.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:20:47.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\03-ObjectClassConstructorInheritanceThisvsBase\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:18:45.476Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
