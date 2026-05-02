@@ -1,0 +1,146 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.text-center { text-align: center; }
+
+.divider {
+    max-width: 50px;
+    height: 3px;
+    background-color: #f4623a;
+    border: none;
+    margin: 20px auto;
+}
+.divider-light {
+    max-width: 50px;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+    margin: 20px auto;
+}
+.navbar {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.9);
+    z-index: 1000;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #212529;
+}
+
+.nav-links { display: flex; }
+.nav-links li { margin-left: 20px; }
+.nav-links a {
+    color: rgba(0,0,0,0.7);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.6)), url('img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-family: 'Merriweather', serif;
+}
+.btn {
+    padding: 15px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #f4623a;
+    color: white;
+}
+.btn-light {
+    background-color: white;
+    color: #212529;
+}
+.section-orange {
+    background-color: #f4623a;
+    color: white;
+    padding: 100px 0;
+}
+#services { padding: 100px 0; }
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.icon { font-size: 3rem; color: #f4623a; margin-bottom: 15px; display: block; }
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.download-section {
+    background-color: #212529; /* Tünd boz arxa fon */
+    padding: 100px 0;
+    color: white;
+}
+.download-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.btn-light-large {
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 20px 45px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn-light-large:hover {
+    background-color: #e2e6ea;
+    text-decoration: none;
+}
+#contact { padding: 100px 0; background: #f8f9fa; }
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
