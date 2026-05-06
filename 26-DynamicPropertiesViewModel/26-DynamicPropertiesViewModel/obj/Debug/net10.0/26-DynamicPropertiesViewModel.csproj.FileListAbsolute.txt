@@ -1,0 +1,7 @@
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\26-DynamicPropertiesViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\26-DynamicPropertiesViewModel.AssemblyInfoInputs.cache
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\26-DynamicPropertiesViewModel.AssemblyInfo.cs
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\26-DynamicPropertiesViewModel.csproj.CoreCompileInputs.cache
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\26-DynamicPropertiesViewModel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ezetq\OneDrive\Desktop\APA202\26-DynamicPropertiesViewModel\26-DynamicPropertiesViewModel\obj\Debug\net10.0\26-DynamicPropertiesViewModel.sourcelink.json

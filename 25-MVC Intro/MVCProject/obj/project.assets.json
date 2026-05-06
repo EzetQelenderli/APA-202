@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\MVCProject\\MVCProject\\MVCProject.csproj",
+      "projectUniqueName": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\25-MVC Intro\\MVCProject\\MVCProject.csproj",
       "projectName": "MVCProject",
-      "projectPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\MVCProject\\MVCProject\\MVCProject.csproj",
+      "projectPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\25-MVC Intro\\MVCProject\\MVCProject.csproj",
       "packagesPath": "C:\\Users\\ezetq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\MVCProject\\MVCProject\\obj\\",
+      "outputPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\25-MVC Intro\\MVCProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
