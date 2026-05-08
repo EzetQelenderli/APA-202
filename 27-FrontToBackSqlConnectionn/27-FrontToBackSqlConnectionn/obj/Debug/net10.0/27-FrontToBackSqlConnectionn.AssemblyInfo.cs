@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("27-FrontToBackSqlConnectionn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09278e7fd57b4f09d8a1a83813b5ea85dcd83bfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e14475e4d54afdef8f20da9302b731081c45c112")]
 [assembly: System.Reflection.AssemblyProductAttribute("27-FrontToBackSqlConnectionn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("27-FrontToBackSqlConnectionn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

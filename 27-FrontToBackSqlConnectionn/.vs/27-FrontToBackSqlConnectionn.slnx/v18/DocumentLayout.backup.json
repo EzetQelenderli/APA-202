@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\27-fronttobacksqlconnectionn\\27-fronttobacksqlconnectionn\\services\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\services\\testservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\27-fronttobacksqlconnectionn\\27-fronttobacksqlconnectionn\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\27-fronttobacksqlconnectionn\\27-fronttobacksqlconnectionn\\services\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\services\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\27-fronttobacksqlconnectionn\\27-fronttobacksqlconnectionn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +27,12 @@
       "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Migrations\\20260508092543_SLiderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:27-FrontToBackSqlConnectionn\\Migrations\\20260508092543_SLiderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\27-fronttobacksqlconnectionn\\27-fronttobacksqlconnectionn\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\27-fronttobacksqlconnectionn\\27-fronttobacksqlconnectionn\\migrations\\20260508092543_slidertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B0AD286-FE0F-FB3F-EBBA-A36B75D6A317}|27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn.csproj|solutionrelative:27-fronttobacksqlconnectionn\\migrations\\20260508092543_slidertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +42,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TestService.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Services\\TestService.cs",
+              "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Services\\TestService.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Services\\TestService.cs",
+              "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Services\\TestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T09:55:56.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Services\\IEmailServices.cs",
+              "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Services\\IEmailServices.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Services\\IEmailServices.cs",
+              "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Services\\IEmailServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T09:54:51.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailServices.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Services\\EmailServices.cs",
+              "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Services\\EmailServices.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Services\\EmailServices.cs",
+              "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Services\\EmailServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T09:53:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Controllers\\HomeController.cs",
@@ -47,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "20260508092543_SLiderTable.cs",
               "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Migrations\\20260508092543_SLiderTable.cs",
               "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Migrations\\20260508092543_SLiderTable.cs",
@@ -55,12 +110,11 @@
               "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Migrations\\20260508092543_SLiderTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T09:25:44.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T09:25:44.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Data\\AppDbContext.cs",
@@ -68,12 +122,11 @@
               "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T09:23:29.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T09:23:29.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -81,12 +134,11 @@
               "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T09:22:49.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T09:22:49.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\27-FrontToBackSqlConnectionn\\27-FrontToBackSqlConnectionn\\Program.cs",
               "RelativeDocumentMoniker": "27-FrontToBackSqlConnectionn\\Program.cs",
@@ -94,8 +146,7 @@
               "RelativeToolTip": "27-FrontToBackSqlConnectionn\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T08:57:45.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T08:57:45.713Z"
             }
           ]
         }
