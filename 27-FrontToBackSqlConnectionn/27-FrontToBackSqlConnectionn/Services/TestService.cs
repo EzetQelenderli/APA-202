@@ -1,12 +1,12 @@
 ﻿namespace _27_FrontToBackSqlConnectionn.Services
 {
-    public class TestService
+    public class TestService : IEmailService
     {
         public string OffEmail { get; set; }
 
         public void SendEmail()
         {
-            Console.WriteLine("test service");
+            Console.WriteLine("Test SErvice");
         }
     }
 }

@@ -1,4 +1,5 @@
 using _27_FrontToBackSqlConnectionn.Data;
+using _27_FrontToBackSqlConnectionn.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace _27_FrontToBackSqlConnectionn
@@ -12,8 +13,11 @@ namespace _27_FrontToBackSqlConnectionn
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<AppDbContext>(opt =>
             {
-                opt.UseSqlServer("Server=.\\SQLEXPRESS;Database=ApaProniaDb;Trusted_Connection=True;TrustServerCertificate=True");
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
+            //builder.Services.AddSingleton<EmailService>();
+            builder.Services.AddScoped<IEmailService,TestService>();
+            //builder.Services.AddTransient<EmailService>();
 
 
 
