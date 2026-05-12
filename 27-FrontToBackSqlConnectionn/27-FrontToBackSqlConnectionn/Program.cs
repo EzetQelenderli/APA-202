@@ -6,30 +6,35 @@ namespace _27_FrontToBackSqlConnectionn
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
-
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<AppDbContext>(opt =>
+        
+        
+            public static void Main(string[] args)
             {
-                opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-            });
-            //builder.Services.AddSingleton<EmailService>();
-            builder.Services.AddScoped<IEmailService,TestService>();
+                var builder = WebApplication.CreateBuilder(args);
+
+                builder.Services.AddControllersWithViews();
+
+                builder.Services.AddDbContext<AppDbContext>(opt =>
+                {
+                    opt.UseSqlServer(builder.Configuration.GetConnectionString("default"));
+                });
+
+                //builder.Services.AddSingleton<EmailService>();
+
+                builder.Services.AddSingleton<IEmailService, TestService>();
+
             //builder.Services.AddTransient<EmailService>();
 
 
-
             var app = builder.Build();
-            app.UseStaticFiles();
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
-                .WithStaticAssets();
+                app.UseStaticFiles();
+                app.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}")
+                    .WithStaticAssets();
 
-            app.Run();
+                app.Run();
+            }
         }
     }
-}

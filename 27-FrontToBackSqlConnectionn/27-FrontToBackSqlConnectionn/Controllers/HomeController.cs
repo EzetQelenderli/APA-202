@@ -18,28 +18,30 @@ namespace _27_FrontToBackSqlConnectionn.Controllers
             _emailService = emailService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Product> products = _context.Products
-                .Include(p => p.ProductImages)
-                .Where(p => !p.IsDeleted)
-                .ToList();
 
-            _emailService.SendEmail();
-
-            List<Slider> sliders = _context.Sliders
+            List<Slider> sliders = await _context.Sliders
                 .Where(s => !s.IsDeleted)
                 .OrderBy(s => s.Order)
                 .Take(2)
-                .ToList();
+                .ToListAsync();
 
-            HomeVM homeVM = new HomeVM()
+
+            List<Product> products = await _context.Products
+                 .Where(s => !s.IsDeleted)
+                 .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
+                .Take(4)
+                .ToListAsync();
+
+
+            HomeVM homeVM = new()
             {
                 Sliders = sliders,
                 Products = products
             };
-
             return View(homeVM);
         }
+
     }
 }

@@ -1,5 +1,4 @@
-﻿@using _27_FrontToBackSqlConnectionn.Models
-@using _27_FrontToBackSqlConnectionn.ViewModels
+﻿﻿
 @model HomeVM
 
 <!-- Begin Slider Area -->
@@ -7,11 +6,11 @@
     <!-- Main Slider -->
     <div class="swiper-container main-slider swiper-arrow with-bg_white">
         <div class="swiper-wrapper">
-            @* @* @foreach (Slider slider in Model.Sliders)
-                </div> *@
+              @foreach (Slider slider in Model.Sliders)
+               
            
             {
-            @* <div class="swiper-slide animation-style-01">
+             <div class="swiper-slide animation-style-01">
                     <div class="slide-inner style-1 bg-height"
                          data-bg-image="assets/images/slider/bg/1-1.jpg">
                         <div class="container">
@@ -21,8 +20,8 @@
                                         <span class="offer">@slider.Subtitle</span>
                                         <h2 class="title">@slider.Title</h2>
                                         <p class="short-desc">
-                                            @slider.Description *@
-            @*         </p>
+                                            @slider.Description 
+                    </p>
                                         <div class="btn-wrap">
                                             <a class="btn btn-custom-size xl-size btn-pronia-primary"
                                                href="shop.html">Discover Now</a>
@@ -35,7 +34,7 @@
                                             <div class="expand-width" data-depth="0.2">
                                                 <img src="~/assets/images/website-images//@slider.Image"
                                                      alt="Inner Image" />
-                                            </div> *@
+                                            </div> 
         </div>
     </div>
 </div>
@@ -184,7 +183,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6">
                                 <div class="product-item">
                                     <div class="product-img">
-                                        <a href="shop.html">
+                                        <a asp-controller="shop" asp-action="index">
                                             <img class="primary-img"
                                                  src="~/assets/images/website-images//1-1-270x300.jpg"
                                                  alt="Product Images" />
