@@ -1,17 +1,20 @@
 ﻿using _27_FrontToBackSqlConnectionn.Models.Base;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace _27_FrontToBackSqlConnectionn.Models
 {
     public class Slider:BaseEntity
     {
 
-        public string Image { get; set; }
+        public string? Image { get; set; }
         public string Title { get; set; }
         public string Subtitle { get; set; }
         public string Description { get; set; }
         public int Order { get; set; }
-
-
+        [Required]
+        [NotMapped]
+        public IFormFile Photo { get; set; }
 
     }
 }
