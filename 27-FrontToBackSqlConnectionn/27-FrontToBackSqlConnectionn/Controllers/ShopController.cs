@@ -1,11 +1,10 @@
 ﻿using _27_FrontToBackSqlConnectionn.Data;
 using _27_FrontToBackSqlConnectionn.Models;
-using _27_FrontToBackSqlConnectionn.Services;
 using _27_FrontToBackSqlConnectionn.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace _27_FrontToBackSqlConnectionn.Controllers
+namespace _27_FrontToBackSqlConnection.Controllers
 {
     public class ShopController : Controller
     {
@@ -19,7 +18,8 @@ namespace _27_FrontToBackSqlConnectionn.Controllers
         {
             List<Product> products = await _context.Products
                 .Where(p => !p.IsDeleted)
-                .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null && pi.IsDeleted == false))
+                .Include(p => p.ProductImages
+                .Where(pi => pi.IsPrimary != null && pi.IsDeleted == false))
                 .ToListAsync();
 
             ShopVM shopVM = new()
@@ -38,6 +38,8 @@ namespace _27_FrontToBackSqlConnectionn.Controllers
                 .Where(p => !p.IsDeleted)
                 .Include(p => p.Category)
                 .Include(p => p.ProductImages)
+                .Include(p => p.ProductTags)
+                .ThenInclude(pt => pt.Tag)
                 .FirstOrDefaultAsync(p => p.Id == id);
 
             if (product == null) return NotFound();

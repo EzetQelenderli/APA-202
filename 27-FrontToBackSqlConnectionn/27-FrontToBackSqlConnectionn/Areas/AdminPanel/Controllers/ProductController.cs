@@ -1,6 +1,4 @@
 ﻿using _27_FrontToBackSqlConnectionn.Areas.AdminPanel.ViewModels;
-using _27_FrontToBackSqlConnectionn.Areas.AdminPanel.ViewModels;
-using _27_FrontToBackSqlConnectionn.Areas.AdminPanel.ViewModels;
 using _27_FrontToBackSqlConnectionn.Data;
 using _27_FrontToBackSqlConnectionn.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -47,6 +45,7 @@ namespace _27_FrontToBackSqlConnectionn.Areas.AdminPanel.Controllers
             ProductCreateVM productCreateVM = new ProductCreateVM()
             {
                 Categories=await _context.Categories.Where(c=>!c.IsDeleted).ToListAsync(),
+                Tags=await _context.Tags.Where(t=>!t.IsDeleted).ToListAsync(),
             };
             return View(productCreateVM);
         }
@@ -67,6 +66,60 @@ namespace _27_FrontToBackSqlConnectionn.Areas.AdminPanel.Controllers
 
 
             return View(productCreateVM);
+        }
+        public async Task<IActionResult> Update(int?id)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+            Product? product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product == null) return NotFound();
+
+            ProductUpdateVM productUpdateVM = new ProductUpdateVM()
+            {
+                Name = product.Name,
+                Price = product.Price,
+                SKU = product.SKU,
+                Description = product.Description,
+                CategoryId = product.CategoryId,
+                Categories=await _context.Categories.Where(c=>!c.IsDeleted).ToListAsync(),
+            };
+            return View(productUpdateVM);
+
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int ? id,ProductUpdateVM productUpdateVM)
+        {
+            if (id is null || id < 1) return BadRequest();
+
+          
+
+            productUpdateVM.Categories=await _context.Categories.Where(c=>!c.IsDeleted).ToListAsync();
+
+            if (ModelState.IsValid)
+            {
+                return View(productUpdateVM);
+            }
+
+            Product? product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product == null) return NotFound();
+            bool existCategory=productUpdateVM.Categories.Any(c =>c.Id==productUpdateVM.CategoryId);
+            if (!existCategory)
+            {
+                ModelState.AddModelError(nameof(productUpdateVM.CategoryId),"category does not exist");
+                return View(productUpdateVM);
+            }
+            product.Name = productUpdateVM.Name;
+            product.Description = productUpdateVM.Description;
+            product.SKU = productUpdateVM.SKU;
+            product.Price= productUpdateVM.Price;
+            product.CategoryId=productUpdateVM.CategoryId.Value;
+
+            await _context.SaveChangesAsync();
+
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

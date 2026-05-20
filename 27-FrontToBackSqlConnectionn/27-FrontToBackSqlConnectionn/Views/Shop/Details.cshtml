@@ -1,5 +1,4 @@
-﻿@using _27_FrontToBackSqlConnection.Models
-﻿
+﻿﻿
 @model DetailVM
 
 <!-- Begin Main Content Area  -->
@@ -33,7 +32,7 @@
                                 {
                                     <div class="swiper-slide">
                                         <a href="~/assets/images/website-images/@pImage.Image"
-                                               class="single-img gallery-popup">
+                                           class="single-img gallery-popup">
                                             <img class="img-full"
                                                  src="~/assets/images/website-images/@pImage.Image"
                                                  alt="Product Image" />
@@ -90,7 +89,7 @@
                         </div>
                         <p class="short-desc">
                             @(Model.Product.Description.Length >= 300 ? @Model.Product.Description.Substring(0, 300) : @Model.Product.Description)
-                           
+
                         </p>
                         <ul class="quantity-with-btn">
                             <li class="quantity">
@@ -167,61 +166,69 @@
                                 <li>
                                     <a href="#">@Model.Product.Category.Name</a>
                                 </li>
-                               
+
                             </ul>
                         </div>
-                        <div class="product-category product-tags">
-                            <span class="title">Tags :</span>
-                            <ul>
-                                <li>
-                                    <a href="#">Furniture</a>
-                                </li>
-                            </ul>
-                        </div>
+                        @{
+                            @if (Model.Product.ProductTags != null && Model.Product.ProductTags.Any())
+                            {
+                                <div class="product-category product-tags">
+                                    <span class="title">Tags :</span>
+                                    <ul>
+                                        @foreach (ProductTag productTag in Model.Product.ProductTags)
+                                        {
+                                            <li>
+                                                <a href="#">@productTag.Tag.Name</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            }
+                        }
                         <div class="product-category social-link align-items-center pb-0">
                             <span class="title pe-3">Share:</span>
                             <ul>
                                 <li>
                                     <a href="#"
-                                           data-tippy="Pinterest"
-                                           data-tippy-inertia="true"
-                                           data-tippy-animation="shift-away"
-                                           data-tippy-delay="50"
-                                           data-tippy-arrow="true"
-                                           data-tippy-theme="sharpborder">
+                                       data-tippy="Pinterest"
+                                       data-tippy-inertia="true"
+                                       data-tippy-animation="shift-away"
+                                       data-tippy-delay="50"
+                                       data-tippy-arrow="true"
+                                       data-tippy-theme="sharpborder">
                                         <i class="fa fa-pinterest-p"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                           data-tippy="Twitter"
-                                           data-tippy-inertia="true"
-                                           data-tippy-animation="shift-away"
-                                           data-tippy-delay="50"
-                                           data-tippy-arrow="true"
-                                           data-tippy-theme="sharpborder">
+                                       data-tippy="Twitter"
+                                       data-tippy-inertia="true"
+                                       data-tippy-animation="shift-away"
+                                       data-tippy-delay="50"
+                                       data-tippy-arrow="true"
+                                       data-tippy-theme="sharpborder">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                           data-tippy="Tumblr"
-                                           data-tippy-inertia="true"
-                                           data-tippy-animation="shift-away"
-                                           data-tippy-delay="50"
-                                           data-tippy-arrow="true"
-                                           data-tippy-theme="sharpborder">
+                                       data-tippy="Tumblr"
+                                       data-tippy-inertia="true"
+                                       data-tippy-animation="shift-away"
+                                       data-tippy-delay="50"
+                                       data-tippy-arrow="true"
+                                       data-tippy-theme="sharpborder">
                                         <i class="fa fa-tumblr"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                           data-tippy="Dribbble"
-                                           data-tippy-inertia="true"
-                                           data-tippy-animation="shift-away"
-                                           data-tippy-delay="50"
-                                           data-tippy-arrow="true"
-                                           data-tippy-theme="sharpborder">
+                                       data-tippy="Dribbble"
+                                       data-tippy-inertia="true"
+                                       data-tippy-animation="shift-away"
+                                       data-tippy-delay="50"
+                                       data-tippy-arrow="true"
+                                       data-tippy-theme="sharpborder">
                                         <i class="fa fa-dribbble"></i>
                                     </a>
                                 </li>
@@ -239,34 +246,34 @@
                     <ul class="nav product-tab-nav tab-style-2 pt-0" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="tab-btn"
-                                   id="information-tab"
-                                   data-bs-toggle="tab"
-                                   href="#information"
-                                   role="tab"
-                                   aria-controls="information"
-                                   aria-selected="false">
+                               id="information-tab"
+                               data-bs-toggle="tab"
+                               href="#information"
+                               role="tab"
+                               aria-controls="information"
+                               aria-selected="false">
                                 Information
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="active tab-btn"
-                                   id="description-tab"
-                                   data-bs-toggle="tab"
-                                   href="#description"
-                                   role="tab"
-                                   aria-controls="description"
-                                   aria-selected="true">
+                               id="description-tab"
+                               data-bs-toggle="tab"
+                               href="#description"
+                               role="tab"
+                               aria-controls="description"
+                               aria-selected="true">
                                 Description
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="tab-btn"
-                                   id="reviews-tab"
-                                   data-bs-toggle="tab"
-                                   href="#reviews"
-                                   role="tab"
-                                   aria-controls="reviews"
-                                   aria-selected="false">
+                               id="reviews-tab"
+                               data-bs-toggle="tab"
+                               href="#reviews"
+                               role="tab"
+                               aria-controls="reviews"
+                               aria-selected="false">
                                 Reviews(3)
                             </a>
                         </li>
@@ -457,12 +464,12 @@
                                             <ul>
                                                 <li>
                                                     <a href="wishlist.html"
-                                                           data-tippy="Add to wishlist"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
+                                                       data-tippy="Add to wishlist"
+                                                       data-tippy-inertia="true"
+                                                       data-tippy-animation="shift-away"
+                                                       data-tippy-delay="50"
+                                                       data-tippy-arrow="true"
+                                                       data-tippy-theme="sharpborder">
                                                         <i class="pe-7s-like"></i>
                                                     </a>
                                                 </li>
@@ -470,23 +477,23 @@
                                                     data-bs-toggle="modal"
                                                     data-bs-target="#quickModal">
                                                     <a href="#"
-                                                           data-tippy="Quickview"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
+                                                       data-tippy="Quickview"
+                                                       data-tippy-inertia="true"
+                                                       data-tippy-animation="shift-away"
+                                                       data-tippy-delay="50"
+                                                       data-tippy-arrow="true"
+                                                       data-tippy-theme="sharpborder">
                                                         <i class="pe-7s-look"></i>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="cart.html"
-                                                           data-tippy="Add to cart"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
+                                                       data-tippy="Add to cart"
+                                                       data-tippy-inertia="true"
+                                                       data-tippy-animation="shift-away"
+                                                       data-tippy-delay="50"
+                                                       data-tippy-arrow="true"
+                                                       data-tippy-theme="sharpborder">
                                                         <i class="pe-7s-cart"></i>
                                                     </a>
                                                 </li>

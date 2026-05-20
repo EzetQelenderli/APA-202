@@ -11,6 +11,8 @@ namespace _27_FrontToBackSqlConnectionn.Data
         public DbSet<Category>Categories { get; set; }
         public DbSet<Product>Products { get; set; }
         public List<ProductImage> ProductImages { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<ProductTag> ProductTags { get; set; }
 
 
     }
