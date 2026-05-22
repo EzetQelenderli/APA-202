@@ -7,14 +7,11 @@
 
     <title>Majestic Admin</title>
 
-    <!-- plugins:css -->
     <link rel="stylesheet" href="~/admin/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="~/admin/vendors/base/vendor.bundle.base.css">
 
-    <!-- plugin css -->
     <link rel="stylesheet" href="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
 
-    <!-- main css -->
     <link rel="stylesheet" href="~/admin/css/style.css">
 
     <link rel="shortcut icon" href="~/admin/images/favicon.png" />
@@ -24,31 +21,6 @@
 
     <div class="container-scroller">
 
-        <!-- TOP BAR -->
-        <div class="col-md-12 p-0 m-0">
-            <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
-
-                <div class="ps-lg-1">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <p class="mb-0 font-weight-medium me-3 buy-now-text">
-                            Free 24/7 customer support, updates, and more with this template!
-                        </p>
-                    </div>
-                </div>
-
-                <div class="d-flex align-items-center justify-content-between">
-                    <a href="https://www.bootstrapdash.com/product/majestic-admin-pro/">
-                        <i class="mdi mdi-home me-3 text-white"></i>
-                    </a>
-
-                    <button id="bannerClose" class="btn border-0 p-0">
-                        <i class="mdi mdi-close text-white me-0"></i>
-                    </button>
-                </div>
-
-            </div>
-        </div>
-
         <!-- NAVBAR -->
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
 
@@ -56,11 +28,11 @@
 
                 <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
 
-                    <a class="navbar-brand brand-logo" href="index.html">
+                    <a class="navbar-brand brand-logo" href="#">
                         <img src="~/admin/images/logo.svg" alt="logo" />
                     </a>
 
-                    <a class="navbar-brand brand-logo-mini" href="index.html">
+                    <a class="navbar-brand brand-logo-mini" href="#">
                         <img src="~/admin/images/logo-mini.svg" alt="logo" />
                     </a>
 
@@ -74,37 +46,8 @@
 
             </div>
 
-            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-
-                <ul class="navbar-nav mr-lg-4 w-100">
-
-                    <li class="nav-item nav-search d-none d-lg-block w-100">
-
-                        <div class="input-group">
-
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="search">
-                                    <i class="mdi mdi-magnify"></i>
-                                </span>
-                            </div>
-
-                            <input type="text"
-                                   class="form-control"
-                                   placeholder="Search now"
-                                   aria-label="search"
-                                   aria-describedby="search">
-
-                        </div>
-
-                    </li>
-
-                </ul>
-
-            </div>
-
         </nav>
 
-        <!-- PAGE BODY -->
         <div class="container-fluid page-body-wrapper">
 
             <!-- SIDEBAR -->
@@ -113,13 +56,14 @@
                 <ul class="nav">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" asp-controller="dashboard" asp-action="index">
                             <i class="mdi mdi-home menu-icon"></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
 
                     <li class="nav-item">
+
                         <a class="nav-link"
                            data-bs-toggle="collapse"
                            href="#ui-basic">
@@ -140,20 +84,24 @@
 
                                 <li class="nav-item">
                                     <a class="nav-link"
-                                        asp-controller="category" asp-action="index">
+                                       asp-controller="category"
+                                       asp-action="index">
                                         Category
                                     </a>
                                 </li>
 
                                 <li class="nav-item">
                                     <a class="nav-link"
-                                       asp-controller="slider" asp-action="index">
+                                       asp-controller="slider"
+                                       asp-action="index">
                                         Slider
                                     </a>
                                 </li>
+
                                 <li class="nav-item">
                                     <a class="nav-link"
-                                       asp-controller="product" asp-action="index">
+                                       asp-controller="product"
+                                       asp-action="index">
                                         Product
                                     </a>
                                 </li>
@@ -168,7 +116,7 @@
 
             </nav>
 
-            <!-- MAIN PANEL -->
+            <!-- MAIN -->
             <div class="main-panel">
 
                 <div class="content-wrapper">
@@ -177,58 +125,37 @@
 
                 </div>
 
-                <!-- FOOTER -->
-                <footer class="footer">
-
-                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-
-                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">
-                            Copyright ©
-                            <a href="https://www.bootstrapdash.com/" target="_blank">
-                                bootstrapdash.com
-                            </a>
-                            2021
-                        </span>
-
-                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
-                            Only theOnly the best
-                            <a href="https://www.bootstrapdash.com/" target="_blank">
-                                Bootstrap dashboard
-                            </a>
-                            templates
-                        </span>
-
-                    </div>
-
-                </footer>
-
             </div>
 
         </div>
 
     </div>
 
-    <!-- plugins:js -->
     <script src="~/admin/vendors/base/vendor.bundle.base.js"></script>
 
-    <!-- Plugin js -->
     <script src="~/admin/vendors/chart.js/Chart.min.js"></script>
+
     <script src="~/admin/vendors/datatables.net/jquery.dataTables.js"></script>
+
     <script src="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
 
-    <!-- inject:js -->
     <script src="~/admin/js/off-canvas.js"></script>
+
     <script src="~/admin/js/hoverable-collapse.js"></script>
+
     <script src="~/admin/js/template.js"></script>
 
-    <!-- custom js -->
     <script src="~/admin/js/dashboard.js"></script>
+
     <script src="~/admin/js/data-table.js"></script>
+
     <script src="~/admin/js/jquery.dataTables.js"></script>
+
     <script src="~/admin/js/dataTables.bootstrap4.js"></script>
 
     <script src="~/admin/js/jquery.cookie.js"></script>
 
-</body>
+    @RenderSection("Scripts", required: false)
 
+</body>
 </html>
