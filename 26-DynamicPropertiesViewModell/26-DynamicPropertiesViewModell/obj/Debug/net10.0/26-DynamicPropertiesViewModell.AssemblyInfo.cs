@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("26-DynamicPropertiesViewModell")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b95dbaf55b547d3eaa612645c004f85044b0b02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e4046654073d4c18f0f255bf683b5a9a1fff2ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("26-DynamicPropertiesViewModell")]
 [assembly: System.Reflection.AssemblyTitleAttribute("26-DynamicPropertiesViewModell")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
