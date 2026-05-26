@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\views\\home\\corporativesales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\views\\home\\corporativesales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|c:\\users\\ezetq\\onedrive\\desktop\\apa202\\26-dynamicpropertiesviewmodel\\26-dynamicpropertiesviewmodel\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7281A148-2206-6059-9D7F-796144D469C1}|26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel.csproj|solutionrelative:26-dynamicpropertiesviewmodel\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\ViewModels\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T18:13:00.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Models\\Teacher.cs",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T17:57:23.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T17:47:36.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Models\\Student.cs",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:37:32.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CorporativeSales.cshtml",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Views\\Home\\CorporativeSales.cshtml",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Views\\Home\\CorporativeSales.cshtml",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Views\\Home\\CorporativeSales.cshtml",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Views\\Home\\CorporativeSales.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T09:23:15.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Program.cs",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Program.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Program.cs",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:19:22.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-26T18:18:54.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "26-DynamicPropertiesViewModel\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ezetq\\OneDrive\\Desktop\\APA202\\26-DynamicPropertiesViewModel\\26-DynamicPropertiesViewModel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "26-DynamicPropertiesViewModel\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T09:13:41.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
