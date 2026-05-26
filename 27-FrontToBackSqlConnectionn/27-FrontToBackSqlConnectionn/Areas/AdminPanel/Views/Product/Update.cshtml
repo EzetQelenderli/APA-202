@@ -1,4 +1,4 @@
-﻿@using _27_FrontToBackSqlConnection.Models
+﻿@using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels
 @model ProductUpdateVM
 
 @{
@@ -113,13 +113,13 @@
 
                         <label>Tags</label>
 
-                        <select asp-for="TagIDs"
+                        <select asp-for="TagIds"
                                 class="form-control"
                                 asp-items="new SelectList(Model.Tags, nameof(Tag.Id), nameof(Tag.Name))"
                                 multiple>
                         </select>
 
-                        <span asp-validation-for="TagIDs"
+                        <span asp-validation-for="TagIds"
                               class="text-danger"></span>
                     </div>
 
