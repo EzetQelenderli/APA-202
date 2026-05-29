@@ -5,12 +5,14 @@ using _27_FrontToBackSqlConnectionn.Data;
 using _27_FrontToBackSqlConnectionn.Models;
 using _27_FrontToBackSqlConnectionn.Utilities.Enums;
 using _27_FrontToBackSqlConnectionn.Utilities.Extensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 {
     [Area("AdminPanel")]
+    [Authorize(Roles ="Admin,Moderator")]
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -162,7 +164,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return RedirectToAction(nameof(Index));
 
         }
-
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Update(int? id)
         {
             if (id is null || id < 1) return BadRequest();

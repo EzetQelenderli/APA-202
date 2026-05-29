@@ -30,7 +30,7 @@ namespace _27_FrontToBackSqlConnectionn
 
                 opt.User.RequireUniqueEmail = true;
                 opt.Lockout.MaxFailedAccessAttempts = 3;
-                opt.Lockout.DefaultLockoutTimeSpan= TimeSpan.FromMinutes(1);
+                opt.Lockout.DefaultLockoutTimeSpan= TimeSpan.FromMinutes(5);
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             var app = builder.Build();
